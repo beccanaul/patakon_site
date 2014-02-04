@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	margin: auto;
+}
+
+h1 {
+	font-family: "blanchcaps_inline";
+	text-align: center;
+	color: #ff4400;
+}
+
+h2 {
+	font-family: "blanchcaps_inline";
+	color: #ff4400;
+	font-size: 120px;
+	text-align: center;
+
+}
+
+h3{
+	font-family: "blanchcaps";
+	color: #ff4400;
+	font-size: 40px;
+	text-align: center;
+
+}
+
+h4 {
+	font-family: 'Courier New', Courier, monospace;
+	color: #ff4400;
+	font-size: 24px;
+	text-align: center;
+	padding: 5px;
+}
+
+p {
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+
+}
+
+div {
+	margin: 0 auto;
+}
+
+.menu {
+	padding: 2% 10%;
+}
+
+.logo {
+	width: 100%;
+	max-width: 960px;
+	margin-bottom: -40px;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+#map_canvas {
+        width: 100%;
+        height: 600px;
+      }
