@@ -6,7 +6,8 @@ body {
 h1 {
 	font-family: "blanchcaps_inline";
 	text-align: center;
-	color: #ff4400;
+	size: 200px;
+	color: white;
 }
 
 h2 {
@@ -27,10 +28,18 @@ h3{
 
 h4 {
 	font-family: 'Courier New', Courier, monospace;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	margin-top: -80px;
+	padding: 40px;
+}
+
+h5 {
+	font-family: 'Courier New', Courier, monospace;
 	color: #ff4400;
 	font-size: 24px;
 	text-align: center;
-	padding: 5px;
 }
 
 p {
@@ -39,14 +48,47 @@ p {
 
 }
 
-.bg {
-  position: relative; 
-  top: 0; 
-  left: 0; 
-	
-  /* Preserve aspet ratio */
-  min-width: 100%;
+.menu {
+	padding: 2% 10%;
 }
+
+.logo {
+	width: 100%;
+	max-width: 960px;
+	margin-bottom: -40px;
+	position: relative;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+#map_canvas {
+        width: 100%;
+        height: 600px;
+}
+
+img.ri
+ {
+display: none;
+ }
+
+ .image {
+ 	background: #ff4400;
+ 	width: 100%;
+ 	margin-top: -10px;
+ }
+
+@media (min-width: 600px) {
+
+h1 {
+	color: #ff4400;
+}	
+
+h4 {
+	color: #ff4400;
+}
+
 
 .image {
 	position: relative; 
@@ -70,22 +112,5 @@ img.ri
  vertical-align: middle;
  }
 
-.menu {
-	padding: 2% 10%;
 }
 
-.logo {
-	width: 100%;
-	max-width: 960px;
-	margin-bottom: -40px;
-	position: relative;
-}
-
-.row {
-	margin: 0 auto;
-}
-
-#map_canvas {
-        width: 100%;
-        height: 600px;
-      }
