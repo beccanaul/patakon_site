@@ -75,7 +75,8 @@ display: none;
  }
 
  .decoration {
- 	width: 100%;
+ 	max-height: 172px;
+ 	margin-top: 0px;
  }
 
 /* media query phone size smaller than 600 */
@@ -105,8 +106,8 @@ display: none;
 }
 
 .divider {
-	background-image: "assets/divider-side.svg";
-	background-repeat: repeat-x;
+	background-image: url(../assets/divider-side2.svg);
+	background-repeat: repeat;
 }
 
 
