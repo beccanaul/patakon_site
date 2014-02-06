@@ -43,5 +43,3 @@
 })( jQuery );
 
 
-$(".test").fitText();
-$(h2).fitText();
