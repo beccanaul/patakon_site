@@ -44,10 +44,6 @@ p {
 
 }
 
-.menu {
-	padding: 2% 10%;
-}
-
 #map_canvas {
         width: 100%;
         height: 600px;
@@ -83,6 +79,11 @@ img.header-image {
 	background-repeat: repeat;
 }
 
+/*Menu section (as in food)*/
+
+.menu {
+	padding: 2% 10%;
+}
 
 /* media query phone size smaller than 600 */
 @media (min-width: 600px) {
